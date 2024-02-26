@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: monospace;
+}
+
+body .otadiv {
+  width: 45%;
+  height: 400px;
+  margin: 50px auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 100px 0;
+  text-align: center;
+}
+
+body .otadiv p {
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+body .otadiv button {
+  cursor: pointer;
+  text-transform: capitalize;
+  width: 200px;
+  height: 50px;
+  margin: 20px 10px;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+body .otadiv #qaytadan {
+  background-color: rgba(0, 0, 255, 0.472);
+}
+
+body .otadiv #boshla {
+  background-color: red;
+}
+/*# sourceMappingURL=index.css.map */

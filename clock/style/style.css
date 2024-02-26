@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body{
+  background-color: rgb(11, 11, 39);
+}
+.soat{
+  border: 3px solid blue;
+  border-radius: 5px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  background-color: transparent;
+  font-size: 25px;
+  margin: 50px auto;
+  /* transform: scaleX(-1); */
+  -webkit-box-reflect: below 10px linear-gradient(transparent,rgba(255, 255, 255, 0.305));
+}
+.vaqt{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+#kun_tun{
+  background-color: aqua;
+  padding: 5px;
+  color: black;
+  border-radius: 3px;
+  font-size: 20px;
+}

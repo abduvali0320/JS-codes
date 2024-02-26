@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  position: relative;
+}
+
+body .container img {
+  width: 400px;
+  height: 400px;
+}
+
+body .container [data-qiymat='aloqa'] {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  margin: 10px 30px;
+}
+
+body .container .modal {
+  position: fixed;
+  top: -5000px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body .container .modal .modalTana {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  top: -5000px;
+  left: 30%;
+  margin: 50px 0;
+  width: 600px;
+  height: 400px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  padding: 0 50px;
+}
+
+body .container .modal .modalTana .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 0px;
+}
+
+body .container .modal .modalTana .navbar [data-qiymat='chiqish'] {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+body .container .modal .modalTana .navbar [data-qiymat='chiqish']:hover {
+  color: red;
+}
+
+body .container .modal .modalTana .FIO {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .modal .modalTana .FIO input {
+  width: 60%;
+  height: 30px;
+}
+
+body .container .modal .modalTana #jonatish {
+  width: 30%;
+  height: 30px;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=index.css.map */

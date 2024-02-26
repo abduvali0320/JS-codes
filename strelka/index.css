@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .container {
+  background-color: rgba(89, 141, 47, 0.705);
+  height: 100vh;
+  padding: 250px 0 0 350px;
+}
+
+body .container .box {
+  border-radius: 10px;
+  background-color: red;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .container .chap {
+  margin-left: 20px;
+  display: inline-block;
+  padding-top: 50px;
+  position: relative;
+  height: 100px;
+}
+
+body .container .chap:hover .box1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .container .chap:hover .box2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .container .chap:hover .box3 {
+  display: none;
+}
+
+body .container .chap:hover .box4 {
+  display: none;
+}
+
+body .container .chap .box1 {
+  width: 100px;
+  height: 5px;
+}
+
+body .container .chap .box2 {
+  position: absolute;
+  top: 50px;
+  width: 100px;
+  height: 5px;
+}
+
+body .container .chap .box3 {
+  position: absolute;
+  top: 50px;
+  width: 50px;
+  height: 5px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+}
+
+body .container .chap .box4 {
+  position: absolute;
+  top: 50px;
+  width: 50px;
+  height: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+}
+
+body .container .tepa {
+  margin-left: 20px;
+  display: inline-block;
+  padding-left: 70px;
+  width: 150px;
+  position: relative;
+  height: 100px;
+}
+
+body .container .tepa:hover .box1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .container .tepa:hover .box2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .container .tepa:hover .box3 {
+  display: none;
+}
+
+body .container .tepa:hover .box4 {
+  display: none;
+}
+
+body .container .tepa .box1 {
+  width: 5px;
+  height: 100px;
+}
+
+body .container .tepa .box2 {
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100px;
+}
+
+body .container .tepa .box3 {
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 50px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+body .container .tepa .box4 {
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 50px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+body .container .ong {
+  margin-left: 20px;
+  display: inline-block;
+  padding-top: 50px;
+  position: relative;
+  height: 100px;
+}
+
+body .container .ong:hover .box1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .container .ong:hover .box2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .container .ong:hover .box3 {
+  display: none;
+}
+
+body .container .ong:hover .box4 {
+  display: none;
+}
+
+body .container .ong .box1 {
+  width: 100px;
+  height: 5px;
+}
+
+body .container .ong .box2 {
+  position: absolute;
+  top: 50px;
+  width: 100px;
+  height: 5px;
+}
+
+body .container .ong .box3 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+}
+
+body .container .ong .box4 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 5px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+}
+
+body .container .past {
+  margin-left: 20px;
+  display: inline-block;
+  padding-left: 70px;
+  width: 150px;
+  position: relative;
+  height: 100px;
+}
+
+body .container .past:hover .box1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .container .past:hover .box2 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .container .past:hover .box3 {
+  display: none;
+}
+
+body .container .past:hover .box4 {
+  display: none;
+}
+
+body .container .past .box1 {
+  width: 5px;
+  height: 100px;
+}
+
+body .container .past .box2 {
+  position: absolute;
+  top: 0;
+  width: 5px;
+  height: 100px;
+}
+
+body .container .past .box3 {
+  position: absolute;
+  top: 50px;
+  width: 5px;
+  height: 50px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+body .container .past .box4 {
+  position: absolute;
+  top: 50px;
+  width: 5px;
+  height: 50px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+body .container .hamburger {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+body .container .hamburger .hambur {
+  position: relative;
+  display: inline-block;
+  height: 35px;
+}
+
+body .container .hamburger .hambur:hover .box1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  position: absolute;
+}
+
+body .container .hamburger .hambur:hover .box3 {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body .container .hamburger .hambur:hover .box2 {
+  display: none;
+}
+
+body .container .hamburger .hambur .boxer {
+  margin: 5px;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .container .hamburger .hambur .box1 {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+body .container .hamburger .hambur .box2 {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+
+body .container .hamburger .hambur .box3 {
+  width: 100px;
+  height: 5px;
+  background-color: black;
+}
+/*# sourceMappingURL=index.css.map */

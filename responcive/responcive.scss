@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    // border: solid black 1px;
+}
+
+body{
+    padding: 30px 50px;
+    .box1{
+        position: relative;
+        .left{
+            width: 24%;
+            display: inline-block;
+            i{
+                position: absolute;
+                top: 0;
+            }
+        }
+        .rasm{
+            width: 24%;
+            display: inline-block;
+            img{
+                width: 100%;
+            }
+        }
+        .boshjoy{
+            width: 24%;
+            display: inline-block;
+            .text{
+                display: none;
+            }
+        }            
+        .right{
+            position: absolute;
+            top: 0;
+            width: 24%;
+            display: inline-block;
+        }
+    }
+    .box2{
+        .boxer1{
+            position: relative;
+            width: 25%;
+            display: inline-block;
+            top: -150px;            
+        }
+        .boxer2{
+            width: 25%;
+            display: inline-block;
+        }
+        .boxer3{
+            position: relative;
+            width: 40%;
+            display: inline-block;
+            background-color: rgb(211, 209, 128);
+            height:200px;
+            .chapsoz{
+                position: absolute;
+                bottom: 0;
+                width: 50%;
+            }
+            .ongsoz{
+                position: absolute;
+                right: 0;
+                width: 20%;
+                font-size: 10px;
+                text-align: right;
+            }
+        }
+    }
+    .box3{
+        margin-top: 160px;
+        position: relative;
+        .chap{
+            width: 45%;
+            display: inline-block;
+            line-height: 24px;
+        }
+        .ong{
+            width: 39%;
+            display: inline-block;
+            text-align: justify;
+            position: absolute;
+            top: 0;
+            p{
+                span{
+                    font-weight: bold;
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

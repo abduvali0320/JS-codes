@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .container {
+        background-color: #212122;
+        min-height: 100vh;
+        padding-top: 200px;
+      }
+      .box {
+        width: 340px;
+        box-shadow: 0 0 10px grey;
+        background-color: white;
+        margin: 0 auto;
+        padding: 25px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      button {
+        outline: none;
+        border: none;
+        background-color: transparent;
+        transition: 0.2s;
+        cursor: pointer;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-size: 18px;
+        border-radius: 5px;
+        padding: 8px 13px;
+        color: white;
+      }
+      button:active {
+        transform: translateY(2px);
+      }
+      .stop {
+        background-color: red;
+      }
+      .start {
+        background-color: green;
+      }
+      .reset {
+        background-color: blue;
+      }
+      .timer {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .dNone {
+        display: none;
+      }
+      .text {
+        color: red;
+        font-size: 25px;
+        margin-top: 20px;
+        font-family: sans-serif;
+      }
+    </style>
+
+    <div class="container">
+      <div class="box">
+        <h1>Pomidor Timer</h1>
+        <div class="timer">
+          <p class="minut">25</p>
+          <b>:</b>
+          <p class="secund">16</p>
+        </div>
+        <div class="btns">
+          <button class="start">start</button>
+          <button class="stop">stop</button>
+          <button class="reset">reset</button>
+        </div>
+        <p class="text"></p>
+      </div>
+    </div>
+    <script src="js.js"></script>
+  </body>
+</html>

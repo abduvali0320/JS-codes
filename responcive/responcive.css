@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 30px 50px;
+}
+
+body .box1 {
+  position: relative;
+}
+
+body .box1 .left {
+  width: 24%;
+  display: inline-block;
+}
+
+body .box1 .left i {
+  position: absolute;
+  top: 0;
+}
+
+body .box1 .rasm {
+  width: 24%;
+  display: inline-block;
+}
+
+body .box1 .rasm img {
+  width: 100%;
+}
+
+body .box1 .boshjoy {
+  width: 24%;
+  display: inline-block;
+}
+
+body .box1 .boshjoy .text {
+  display: none;
+}
+
+body .box1 .right {
+  position: absolute;
+  top: 0;
+  width: 24%;
+  display: inline-block;
+}
+
+body .box2 .boxer1 {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+  top: -150px;
+}
+
+body .box2 .boxer2 {
+  width: 25%;
+  display: inline-block;
+}
+
+body .box2 .boxer3 {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  background-color: #d3d180;
+  height: 200px;
+}
+
+body .box2 .boxer3 .chapsoz {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+}
+
+body .box2 .boxer3 .ongsoz {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  font-size: 10px;
+  text-align: right;
+}
+
+body .box3 {
+  margin-top: 160px;
+  position: relative;
+}
+
+body .box3 .chap {
+  width: 45%;
+  display: inline-block;
+  line-height: 24px;
+}
+
+body .box3 .ong {
+  width: 39%;
+  display: inline-block;
+  text-align: justify;
+  position: absolute;
+  top: 0;
+}
+
+body .box3 .ong p span {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=responcive.css.map */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        user-select: none;
+      }
+      body {
+        background-color: #212121;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        padding: 3% 5%;
+        background-color: #02020288;
+        border-radius: 15px;
+        flex-direction: column;
+        gap: 10px;
+        color: whitesmoke;
+      }
+      .kat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+      }
+      input {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        font-family: "Zen Dots", cursive;
+        outline: none;
+        transition: 0.2s ease-in-out;
+        background-color: whitesmoke;
+      }
+      input:focus {
+        box-shadow: 3px 3px 7px rgba(128, 128, 128, 0.534);
+      }
+      div {
+        font-size: 25px;
+      }
+      .savol {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .yonga {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-between;
+        width: 100%;
+      }
+      #natija {
+        color: red;
+      }
+      .soat {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      #boshla {
+        padding: 7px 15px;
+        font-size: 18px;
+        font-weight: 100;
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: 0.1s ease-in-out; 
+      }
+      #boshla:active {
+        transform: scale(0.95);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kat">
+      <div class="container">
+        <div class="savol">
+          <h2 id="one">0</h2>
+          <h2 id="amal">*</h2>
+          <h2 id="two">0</h2>
+        </div>
+        <input type="number" id="javob"/>
+        <div class="yonga">
+          <div>
+            Ball:
+            <span class="achko"></span>
+          </div>
+          <div>
+            Jarima:
+            <span class="jarimaElem">0</span>
+          </div>
+          <div id="natija"></div>
+        </div>
+        <button id="boshla" >boshla</button>
+        <div class="soat">
+          <h3 id="daqiqa">00</h3>
+          :
+          <h3 id="soniya">00</h3>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

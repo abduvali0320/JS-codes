@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: silver;
+}
+
+body #hoshiya {
+  text-align: center;
+}
+
+body #hoshiya span {
+  margin: 50px 20px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 20px #2f2f2f;
+          box-shadow: 3px 3px 20px #2f2f2f;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 150px;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,19 @@
+.container {
+  max-width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns:repeat(7, 100%);
+}
+
+.section{
+  width: 1440px;
+  background-color: red;
+  height: 100vh; 
+  font-size: 40px;
+}
+.section:nth-child(2n) {
+  background-color: blue;
+}
+.section2{
+  transition: 1s ease-in-out;
+}

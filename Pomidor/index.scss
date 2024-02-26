@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    .otadiv{
+        width: 45%;
+        height: 400px;
+        margin: 50px auto;
+        border-radius: 15px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.300);
+        background-color: rgba(0, 0, 0, 0.15);
+        padding: 100px 0;
+        text-align: center;
+        
+        p{
+            font-size: 50px;
+            letter-spacing: 2px;
+        }
+        button{
+            cursor: pointer;
+            text-transform: capitalize;
+            width: 200px;
+            height: 50px;
+            margin: 20px 10px;
+            border-radius: 5px;
+            font-size: 25px;
+        }
+        #qaytadan{
+            background-color: rgba(0, 0, 255, 0.472);
+        }
+        #boshla{
+            background-color: red;
+        }
+    }
+    
+}
+
+
+
+// .ota-div{
+//     display: flex;
+//     .container{
+//         position: relative;
+//         border-top-left-radius: 15px;
+//         border-top-right-radius: 15px;
+//         width: 350px;
+//         height: 600px;
+//         border: solid 1px black;
+//         box-shadow: 0 0 10px silver;
+//         padding: 4px;
+//         .rasm{
+//             img{
+//                 width: 348px;
+//                 border-top-left-radius: 15px;
+//                 border-top-right-radius: 15px;
+//             }
+//         }
+//         .nomi{
+//             text-align: center;
+//             font-size: 25px;
+//             font-weight: bolder;
+//             text-transform: capitalize;
+//             font-family: Verdana, Geneva, Tahoma, sans-serif;
+//         }
+//         .izoh{
+//             text-align: justify;
+//             padding: 10px;
+//         }
+//         .narx{
+//             position: absolute;
+//             bottom: 10px;
+//             right: 10px;
+//             font-weight: bolder;
+//             font-size: 30px;
+//         }
+//     }   
+// }

@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    .header{
+        display: flex;
+        padding: 50px;
+        .tabcontent{
+            width: 100%;
+            display: flex;
+            .tabrasm{
+                img{
+                    width:100%;
+                    transition:all 1s;
+                }
+            }
+        }
+        .tab_Yozuvlar{
+            width: 50%;
+            .tab_Yozuv{
+                border-left: solid black 1px;
+                // font-size: 20px;
+                text-transform: capitalize;
+                margin-left: 30px;
+                padding-left: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.active{
+    font-weight: bold;
+    font-size: 20px;
+    transition:  all 0.5s;
+}
+

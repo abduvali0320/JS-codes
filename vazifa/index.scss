@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    .header{
+        display: flex;
+        .qidiruv{   
+            width: 20%;
+            height: 10vh;
+            background-color:#FED501;
+            color: whitesmoke;
+            padding: 18px;
+            .poisk{
+                height: 30px;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: solid 1.5px whitesmoke;
+                input{
+                    &::placeholder{
+                        color: white;
+                    }
+                    color: whitesmoke;
+                    text-transform: capitalize;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    border: none;
+                    outline: none;
+                    background-color: #FED501;
+                }
+                i{
+                    color: whitesmoke;
+                    padding-top: 5px;
+                }
+            }
+        }
+        .logo{
+            color: black;
+            text-transform: capitalize;
+            text-align: center;
+            line-height: 60px;
+            font-size: 16px;
+            font-family: Goudy Old Style;
+            width: 80%;
+            background-color: white;
+        }
+    }
+    .navbar{
+        display: flex;
+        .kino_turlari{
+            color: white;
+            background-color: #212121;
+            height: 90vh;
+            width: 20%;
+            .kino_turi{
+                width: 100%;
+                padding: 50px 10px;
+                p{
+                    line-height: 30px;
+                    font-size: 20px;
+                    text-transform: capitalize;
+                    font-family: sans-serif;
+                    padding: 0 30px;
+                    margin-top: 10px;
+                    transition: 0.1s;
+                    &:hover{
+                        border-left: solid #FED501 3px;
+                        color: #FED501;
+                        transform: scale(1.1);
+                        cursor: pointer;
+                        margin-left: 15px;
+                        letter-spacing: 3px;
+                    }
+                }
+                a{
+                    color: silver;
+                }
+            }
+        }
+        .kino_afisha{
+            width: 60%;
+            .kino_rasm{
+                background-image: url(wallpaper.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .opasity{
+                    height: 45vh;
+                    padding: 80px 50px;
+                    background:linear-gradient(to right, rgba(0, 0, 255, 0.212), rgba(255, 0, 0, 0.137));
+                    p{
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: silver;
+                        span{
+                            line-height: 50px;
+                            font-size: 40px;
+                        }
+                        width: 50%;
+                        a{
+                            display: inline-block;
+                            color: #FED501;
+                            opacity: 0.7;
+                            span{
+                                font-size: 15px;
+                                text-transform: lowercase;
+                            }
+                        }
+                    }
+                }
+            }
+            .kino_zakaz{
+                form{
+                    padding: 30px 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    .korilganlar{
+                        font-family: Arial, Helvetica, sans-serif;
+                        p{
+                            font-size: 24px;
+                            font-weight: bold;
+                            margin-bottom: 15px;
+                            span{
+                                border-bottom: solid 2px black;
+                            }
+                        }
+                        .kinolar{
+                            overflow: auto;
+                            width: 300px;
+                            height: 210px;
+                            ol{
+                                width: 100%;
+                                cursor: pointer;
+                                font-family: Arial, Helvetica, sans-serif;
+                                padding-left: 20px;
+                                text-transform: uppercase;
+                                line-height: 30px;
+                                clear:   both;
+                                button{ 
+                                    display: none;
+                                    float: right;
+                                    font-size: 20px;
+                                    outline: none;
+                                    padding: 0 5px;
+                                    border: none;
+                                    color: red;
+                                }
+                                li{
+                                    width: 60%;
+                                    &:hover button{
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .kino_yangi{
+                        p{
+                            font-size: 24px;
+                            font-weight: bold;
+                            margin-bottom: 15px;
+                            span{
+                                border-bottom: solid 2px black;
+                            }
+                        }
+                        .forma{
+                            flex-wrap: wrap;
+                            width: 100%;
+                            font-weight: bold;
+                            p{
+                                font-size: 17px;
+                                margin: 10px 0;
+                            }
+                            .text{
+                                outline: none;
+                                width: 100%;
+                                padding: 10px;
+                                background-color: #EEEEEE;
+                            }
+                            .jonatish{
+                                display: inline-block;
+                                width: 49%;
+                                color: white;
+                                outline: none;
+                                border: none;
+                                margin-top: 15px;
+                                text-transform: capitalize;
+                                padding: 13px 0;
+                                background-color: #FED501;
+                                transition: 0.2s;
+                                &:hover{
+                                    background-color: #a89018;
+                                    border-bottom-right-radius:30px;
+                                    border-top-left-radius: 30px;
+                                }
+                            }
+                            .qoshish{
+                                text-align: center;
+                                &:hover{
+                                    border-top-left-radius: 0px;
+                                    border-bottom-right-radius:0px;
+                                    border-bottom-left-radius:30px;
+                                    border-top-right-radius: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .reklama{
+            height: 90vh;
+            background-color: #212121;
+            width: 20%;
+            color: #FED501;
+            text-align: center;
+            padding-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    }
+}

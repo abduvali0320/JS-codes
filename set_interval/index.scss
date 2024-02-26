@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// .box{
+//     width: 500px;
+//     height: 500px;
+//     border: solid 5px black;
+//     position: relative;
+//     margin: 20px auto;
+//     .boxer{
+//         position: absolute;
+//         width: 100px;
+//         height: 100px;
+//         background-color: red;
+//     }
+// }
+
+
+
+body{
+    background-color: silver;
+    #hoshiya{
+        text-align: center;
+        span{
+            margin: 50px 20px;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 3px 3px 20px rgb(47, 47, 47);
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 150px;
+        }
+    }
+    
+}

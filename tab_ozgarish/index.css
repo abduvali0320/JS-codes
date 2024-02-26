@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px;
+}
+
+body .header .tabcontent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .header .tabcontent .tabrasm img {
+  width: 100%;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .header .tab_Yozuvlar {
+  width: 50%;
+}
+
+body .header .tab_Yozuvlar .tab_Yozuv {
+  border-left: solid black 1px;
+  text-transform: capitalize;
+  margin-left: 30px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/*# sourceMappingURL=index.css.map */

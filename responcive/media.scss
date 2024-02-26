@@ -1,0 +1,102 @@
+@media only screen and (max-width:576px){
+    body{
+        background-color:black;
+        color: white;
+        padding: 30px 50px;
+        .box1{
+            position: relative;
+            .left{
+                width: 100%;
+                height: 150px;
+                display: block;
+    
+            }
+            .rasm{
+                width: 100%;
+                display:block;
+                img{
+                    width: 100%;
+                }
+            }
+            .boshjoy{
+                position: relative;
+                top: -420px;
+                text-align: right;
+                right:-240px ;
+                display: inline-block;
+                width: 50%;
+                .text{
+                    display: block;
+                    opacity: 0.5;
+                    font-size: 15px;
+                    line-height: 20px;
+                }
+            }            
+            .right{
+                position: relative;
+                top: -70px;
+                opacity: 0.8;
+                width: 100%;
+                display: block;
+            }
+        }
+        .box2{
+            .boxer1{
+                position: relative;
+                width: 100%;
+                display: block;
+                top: -460px;
+                opacity: 0.7;            
+            }
+            .boxer2{
+                width: 0%;
+                display: inline-block;
+            }
+            .boxer3{
+                top: -100px;
+
+                position: relative;
+                width: 500%;
+                display: block;
+                background-color: black;
+                height:10px;
+                .chapsoz{
+                    position: absolute;
+                    top: 20px;
+                    width: 100%;
+                }
+                .ongsoz{
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    font-size: 10px;
+                    text-align:left;
+                }
+            }
+        }
+        .box3{
+            margin-top: 160px;
+            position: relative;
+            .chap{
+                position: relative;
+                top: -200px;
+                width: 100%;
+                display: block;
+                line-height: 24px;
+            }
+            .ong{
+                width: 100%;
+                display: inline-block;
+                text-align: justify;
+                position: absolute;
+                top: 0px;
+                p{
+                    span{
+                        font-weight: bold;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

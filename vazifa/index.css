@@ -1,0 +1,289 @@
+* {
+  padding: 0px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+}
+
+body .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .header .qidiruv {
+  width: 20%;
+  height: 10vh;
+  background-color: #FED501;
+  color: whitesmoke;
+  padding: 18px;
+}
+
+body .header .qidiruv .poisk {
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: solid 1.5px whitesmoke;
+}
+
+body .header .qidiruv .poisk input {
+  color: whitesmoke;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #FED501;
+}
+
+body .header .qidiruv .poisk input::-webkit-input-placeholder {
+  color: white;
+}
+
+body .header .qidiruv .poisk input:-ms-input-placeholder {
+  color: white;
+}
+
+body .header .qidiruv .poisk input::-ms-input-placeholder {
+  color: white;
+}
+
+body .header .qidiruv .poisk input::placeholder {
+  color: white;
+}
+
+body .header .qidiruv .poisk i {
+  color: whitesmoke;
+  padding-top: 5px;
+}
+
+body .header .logo {
+  color: black;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 60px;
+  font-size: 16px;
+  font-family: Goudy Old Style;
+  width: 80%;
+  background-color: white;
+}
+
+body .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .navbar .kino_turlari {
+  color: white;
+  background-color: #212121;
+  height: 90vh;
+  width: 20%;
+}
+
+body .navbar .kino_turlari .kino_turi {
+  width: 100%;
+  padding: 50px 10px;
+}
+
+body .navbar .kino_turlari .kino_turi p {
+  line-height: 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  padding: 0 30px;
+  margin-top: 10px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+body .navbar .kino_turlari .kino_turi p:hover {
+  border-left: solid #FED501 3px;
+  color: #FED501;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  margin-left: 15px;
+  letter-spacing: 3px;
+}
+
+body .navbar .kino_turlari .kino_turi a {
+  color: silver;
+}
+
+body .navbar .kino_afisha {
+  width: 60%;
+}
+
+body .navbar .kino_afisha .kino_rasm {
+  background-image: url(wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .navbar .kino_afisha .kino_rasm .opasity {
+  height: 45vh;
+  padding: 80px 50px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 255, 0.212)), to(rgba(255, 0, 0, 0.137)));
+  background: linear-gradient(to right, rgba(0, 0, 255, 0.212), rgba(255, 0, 0, 0.137));
+}
+
+body .navbar .kino_afisha .kino_rasm .opasity p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: silver;
+  width: 50%;
+}
+
+body .navbar .kino_afisha .kino_rasm .opasity p span {
+  line-height: 50px;
+  font-size: 40px;
+}
+
+body .navbar .kino_afisha .kino_rasm .opasity p a {
+  display: inline-block;
+  color: #FED501;
+  opacity: 0.7;
+}
+
+body .navbar .kino_afisha .kino_rasm .opasity p a span {
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+body .navbar .kino_afisha .kino_zakaz form {
+  padding: 30px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar p span {
+  border-bottom: solid 2px black;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar .kinolar {
+  overflow: auto;
+  width: 300px;
+  height: 210px;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar .kinolar ol {
+  width: 100%;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  text-transform: uppercase;
+  line-height: 30px;
+  clear: both;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar .kinolar ol button {
+  display: none;
+  float: right;
+  font-size: 20px;
+  outline: none;
+  padding: 0 5px;
+  border: none;
+  color: red;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar .kinolar ol li {
+  width: 60%;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .korilganlar .kinolar ol li:hover button {
+  display: inline-block;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi p span {
+  border-bottom: solid 2px black;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  font-weight: bold;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma p {
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma .text {
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #EEEEEE;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma .jonatish {
+  display: inline-block;
+  width: 49%;
+  color: white;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  text-transform: capitalize;
+  padding: 13px 0;
+  background-color: #FED501;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma .jonatish:hover {
+  background-color: #a89018;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma .qoshish {
+  text-align: center;
+}
+
+body .navbar .kino_afisha .kino_zakaz form .kino_yangi .forma .qoshish:hover {
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+body .navbar .reklama {
+  height: 90vh;
+  background-color: #212121;
+  width: 20%;
+  color: #FED501;
+  text-align: center;
+  padding-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */
