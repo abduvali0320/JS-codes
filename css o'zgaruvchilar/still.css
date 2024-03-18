@@ -1,0 +1,27 @@
+:root {
+  --bg-color: #212122;
+  --text-color: white;
+  --btn-color: grey;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 25px;
+}
+html[data-style="dark"] {
+  --bg-color: white;
+  --text-color: #212122;
+  --btn-color: green;
+}
+button {
+  background-color: var(--btn-color);
+  color: var(--text-color);
+}
+h1,
+p {
+  color: var(--text-color);
+}
+html {
+  background-color: var(--bg-color);
+}

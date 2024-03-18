@@ -78,6 +78,9 @@ qayta.addEventListener("click", (e) => {
   qayta.style.display = "none"
   input.focus()
 })
+
+
+
 timer.map((item, index) => {
   timeItems.innerHTML += `
     <span class="timeItem" onclick=handleClick(${index}) > ${item} </span>
@@ -101,5 +104,4 @@ addStyle(0)
 let handleClick = (param) => {
   removeStyle()
   addStyle(param)
-  setTime(timer[param])
 }
