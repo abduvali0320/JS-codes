@@ -1,0 +1,7 @@
+{
+  "ignore_images": ["svg", "gif"],
+  "layout_ext": "html",
+  "styles_ext": "stylus",
+  "other_fonts": true,
+  "port": 3000
+}
