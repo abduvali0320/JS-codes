@@ -223,12 +223,69 @@
 // Yy = (A_1 * C_2 - A_2 * C_1) / D;
 // console.log("D = " + D + " X = " + Xx + " Y = " + Yy);
 
-let numbers = [1, 5, 3, 4, 6, 8, 10, 21, 43, 54, 2, 31, 20, 19, 34];
-let k = 35;
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] + numbers[i + 1] == k) {
-    console.log(
-      `${numbers[i]} + ${numbers[i + 1]} = ${k}, ${i} va ${i + 1} indexdagilar`
-    );
-  }
-}
+// let numbers = [1, 5, 3, 4, 6, 8, 10, 21, 43, 54, 2, 31, 20, 19, 34];
+// let k = 35;
+// for (let i = 0; i < numbers.length; i++) {
+//   if (numbers[i] + numbers[i + 1] == k) {
+//     console.log(
+//       `${numbers[i]} + ${numbers[i + 1]} = ${k}, ${i} va ${i + 1} indexdagilar`
+//     );
+//   }
+// }
+
+// let users = [
+//     { id: 1 },
+//     { id: 2 },
+//     { id: 3 },
+//     { id: 4 },
+//     { id: 3 },
+//     { id: 1 },
+//     { id: 2 },
+//     { id: 1 },
+//     { id: 3 },
+//     { id: 4 },
+//     { id: 4 },
+// ];
+
+// let uniqueUsers = [];
+// users.map((u) => {
+//     if (!uniqueUsers.find((k) => k.id === u.id)) {
+//         uniqueUsers.push(u);
+//     }
+// });
+
+// console.log(uniqueUsers);
+// let users = [
+//     { id: 1 },
+//     { id: 2 },
+//     { id: 3 },
+//     { id: 4 },
+//     { id: 3 },
+//     { id: 1 },
+//     { id: 2 },
+//     { id: 1 },
+//     { id: 3 },
+//     { id: 4 },
+//     { id: 4 },
+// ];
+
+// let uniqueUsers = new Set();
+// let result = users.reduce((users, user) => {
+//     // console.log(users);
+//     if (!uniqueUsers.has(user.id)) {
+//         uniqueUsers.add(user.id);
+//         return [...users, user];
+//     }
+//     console.log(uniqueUsers);
+//     return users;
+// }, []);
+
+// console.log(result);
+
+// let obj = { name: "John " };
+
+// let map = new WeakMap();
+
+// map.set(obj, "value");
+// obj = null;
+// console.log(map);

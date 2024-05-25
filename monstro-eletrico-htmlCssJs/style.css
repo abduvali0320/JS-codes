@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: sticky;
+    top: 0;
+    background: black;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+}
