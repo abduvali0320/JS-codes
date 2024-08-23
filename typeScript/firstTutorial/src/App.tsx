@@ -4,7 +4,7 @@ const App = (): JSX.Element => {
   return (
     <div className={style.container}>
       <h1 className={style.sarlavha}>bu yangi style berish turi hisoblanadi</h1>
-      <p className={[style.sarlavha, style.sarlavha_2].join(" ")}>
+      <p className={`${style.sarlavha} ${style.sarlavha_2} sm:text-red-400`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quia
         fugit. Ea, doloremque nostrum, laborum quam harum vero ipsa et dolorem
         voluptatum maiores modi porro veritatis. Ad autem consequatur
@@ -20,6 +20,7 @@ const App = (): JSX.Element => {
           click
         </Button>
       </div>
+      <div className="w-28 h-28 bg-red-400 rounded-full" />
     </div>
   );
 };
